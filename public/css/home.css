@@ -1,0 +1,80 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Body */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #dbeafe, #f8fafc);
+    padding-top: 60px;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: #1e3a8a;
+    font-size: 32px;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+}
+
+/* List Container */
+ul {
+    width: 450px;
+    margin: auto;
+    list-style: none;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* List Item */
+li {
+    margin-bottom: 15px;
+}
+
+/* Link Button */
+a {
+    display: block;
+    padding: 15px 20px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+a:hover {
+    background: #1d4ed8;
+    transform: translateX(8px);
+}
+
+/* Different color when active */
+a:active {
+    background: #1e40af;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    ul {
+        width: 90%;
+        padding: 20px;
+    }
+
+    a {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
